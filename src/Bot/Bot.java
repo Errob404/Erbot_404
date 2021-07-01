@@ -17,7 +17,7 @@ public class Bot
     //Main method
     public static void main(String[] args) throws LoginException {
         //Activeer bot
-        JDABuilder builder = JDABuilder.createDefault("ODE1OTU1MzEwODYxNzQ2MTg2.YDz7mQ.J7sOugZMd6gUD6NLnIO8KgWU96Y");
+        JDABuilder builder = JDABuilder.createDefault("");
         jda = builder.build();
 
         //Status
